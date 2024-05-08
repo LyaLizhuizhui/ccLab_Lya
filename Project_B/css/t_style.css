@@ -1,0 +1,157 @@
+html,
+body {
+    width: 100%;
+    background-color: #ff0000;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    display: block;
+}
+
+.title-container {
+    /* background-color: aqua; */
+    width: 80%;
+    height: 100px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+}
+
+h1 {
+    font-family: "Dawning of a New Day", cursive;
+    font-weight: 400;
+    color: rgb(36, 37, 37);
+    font-size: 50px;
+    font-style: normal;
+}
+
+
+body {
+    background-color: black;
+    background: url("../assets/colorful.png");
+}
+
+p {
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: tomato;
+    /* text-decoration: underline; */
+}
+
+.title-box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    /* margin */
+    /* margin: all */
+    /* margin: tb rl */
+    /* margin: t r b l */
+    margin: 0px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.folder-image-100 {
+    width: 100px;
+    height: 80px;
+}
+
+.folder-image-200 {
+    width: 200px;
+    height: 160px;
+
+}
+
+.folder-image-300 {
+    width: 320px;
+    height: 260px;
+}
+
+.small {
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: small;
+}
+
+.medium {
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: medium;
+}
+
+.large {
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+
+
+
+#folder-1 {
+    position: relative;
+    left: 200px;
+    top: 30px;
+    text-align: center;
+
+}
+
+#folder-2 {
+    position: relative;
+    left: 400px;
+    bottom: 10px;
+    text-align: center;
+}
+
+#folder-3 {
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+}
