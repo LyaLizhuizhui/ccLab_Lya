@@ -1,0 +1,57 @@
+body,
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+body {
+    background-color: beige;
+}
+
+.title_box {
+    text-align: center;
+    margin: 20px;
+}
+
+.box_container {
+    width: 800px;
+    background-color: aquamarine;
+}
+
+.box {
+    background-color: whitesmoke;
+    width: 200px;
+    height: 150px;
+    /* margin all */
+    /* margin tb rl */
+    /* margin t r b l */
+    margin: 20px 0 10px 50px;
+    padding: 10px;
+    border: 1px solid black;
+    border-width: 5px;
+    border-style: dashed;
+}
+
+#special_box_1 {
+    background-color: royalblue;
+    position: relative;
+    left: 100px
+}
+
+#special_box_2 {
+    background-color: blueviolet;
+    position: fixed;
+    left: 300px;
+    bottom: 100px;
+}
+
+#invisible_box {
+    background-color: red;
+    visibility: hidden;
+}
