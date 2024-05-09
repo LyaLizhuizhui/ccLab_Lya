@@ -58,7 +58,7 @@ function draw() {
       push();
       let distance = sqrt(sq(mouseX - x) + sq(mouseY - y));
       translate(x, y);
-      let red = map(distance, 0, 1000, 25, 0) + random(-10, 30);
+      let red = map(distance, 0, 1000, 35, 0) + random(-10, 30);
       noStroke();
       fill(71 + red, 83, 135, al);
       rect(0, 0, gridSize * 0.5, gridSize * 0.5);
