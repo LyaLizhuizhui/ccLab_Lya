@@ -17,7 +17,7 @@ function setup() {
   img = createImage(displayWidth, displayHeight);
 
   xSlider = createSlider(0, 65025, 40000);
-  xSlider.position(0, displayHeight + 120);
+  xSlider.position((windowWidth - displayWidth) / 2, 200);
   xSlider.size(displayWidth, 20);
 }
 

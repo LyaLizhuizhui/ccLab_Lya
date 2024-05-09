@@ -17,7 +17,7 @@ function setup() {
   img = createImage(displayWidth, displayHeight);
 
   xSlider = createSlider(0, 255, 155);
-  xSlider.position(0, displayHeight + 120);
+  xSlider.position((windowWidth - displayWidth) / 2, 200);
   xSlider.size(displayWidth, 20);
 }
 
@@ -51,7 +51,7 @@ function draw() {
 
   cam.loadPixels();
   background(115, 161, 105, x);
-  let gridSize = 80; //floor(map(mouseX, 0, width, 10, 40));\
+  let gridSize = 120; //floor(map(mouseX, 0, width, 10, 40));\
   for (let y = 0; y < cam.height; y += gridSize) {
     let c = floor(map(y, 0, cam.height, 0, 90));
     stroke(62 + c, 102 + c, 53 + c, x);

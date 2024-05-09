@@ -7,7 +7,11 @@
 
   <title>Project</title>
 
-  <link rel="stylesheet" type="text/css" href="css/page_style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="css/page2_style.css">
 
   <script src="lib/p5.js"></script>
   <script src="lib/p5.sound.js"></script>
@@ -15,17 +19,17 @@
 </head>
 
 <body>
-  <h1>為星辰</h1>
-  <p>Project Description</p>
-
-  <!-- the following div will contain the p5 canvas. -->
-  <div id="p5-canvas-container">
-    <!-- p5 canvas will be appended here. -->
+  <div id="wrapper">
+    <h1>星 辰</h1>
+    <p>The Brightest Stars</p>
+    <!-- the following div will contain the p5 canvas. -->
+    <div id="p5-canvas-container">
+      <!-- p5 canvas will be appended here. -->
+    </div>
+    <a class="back" href="index.html">back</a>
+    <!-- the script tag below should always be at the bottom, right before the closing body tag -->
+    <script src="js/page2.js"></script>
   </div>
-  <a href="index.html">back</a>
-
-  <!-- the script tag below should always be at the bottom, right before the closing body tag -->
-  <script src="js/page2.js"></script>
 </body>
 
 </html>
