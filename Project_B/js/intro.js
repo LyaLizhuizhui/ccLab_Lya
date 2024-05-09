@@ -21,9 +21,9 @@ function draw() {
         fill(140, 0, 0);
         textFont("Long Cang");
         textSize(70);
-        text("天地混沌，盘古生其中。", displayWidth / 4 + 100, displayHeight / 2 - 50);
-        textSize(40);
-        text("The heaven and earth were in chaos, and Pangu was born in it. ", displayWidth / 6 + 100, displayHeight / 2 + 50);
+        text("天地混沌，盘古生其中。", displayWidth / 4 + 70, displayHeight / 2 - 50);
+        textSize(50);
+        text("The heaven and earth were in chaos, and Pangu was born in it. ", displayWidth / 8, displayHeight / 2 + 50);
     } else if (frameCount < (time + 3) * 60 * 2) {
         let time2 = map(frameCount, time * 60, time * 60 * 2, 0, 1);
         for (let i = 0; i < displayHeight; i++) {
@@ -34,10 +34,10 @@ function draw() {
         }
         fill(255, 140, 140);
         textSize(70);
-        text("天日高一丈，地日厚一丈，盘古亦长一丈，", displayWidth / 6, displayHeight / 2 - 50);
-        textSize(40);
-        text("Each day, the sky is ten feet taller, the earth is ten feet thicker,", displayWidth / 6, displayHeight / 2 + 50);
-        text("so Pangu is also ten feet taller,", displayWidth / 6, displayHeight / 2 + 100);
+        text("天日高一丈，地日厚一丈，盘古亦长一丈，", displayWidth / 8, displayHeight / 2 - 50);
+        textSize(50);
+        text("Each day, the sky is ten feet taller, the earth is ten feet thicker,", displayWidth / 9, displayHeight / 2 + 50);
+        text("so Pangu is also ten feet taller,", displayWidth / 3 - 50, displayHeight / 2 + 100);
     } else {
         // background
         for (let i = 0; i < displayHeight; i++) {
@@ -196,7 +196,7 @@ function draw() {
         fill(255);
         textSize(70);
         text("如此万八千年，然後天地开辟。", displayWidth / 6 + 100, displayHeight / 2 - 50);
-        textSize(40);
-        text("and so on for 8000 years, then the heaven and the earth are separated.", displayWidth / 6, displayHeight / 2 + 50);
+        textSize(50);
+        text("and so on for 8000 years, then the heaven and the earth are separated.", displayWidth / 10, displayHeight / 2 + 50);
     }
 }

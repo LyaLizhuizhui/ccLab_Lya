@@ -16,7 +16,7 @@ function setup() {
   cam.hide();
   img = createImage(displayWidth, displayHeight);
 
-  xSlider = createSlider(0, 65025, 40000);
+  xSlider = createSlider(0, 65025, 15625);
   xSlider.position((windowWidth - displayWidth) / 2, 200);
   xSlider.size(displayWidth, 20);
 }
@@ -58,9 +58,9 @@ function draw() {
       push();
       let distance = sqrt(sq(mouseX - x) + sq(mouseY - y));
       translate(x, y);
-      let red = map(distance, 0, 1000, 25, 0) + random(-20, 20);
+      let red = map(distance, 0, 1000, 25, 0) + random(-10, 30);
       noStroke();
-      fill(7 + red, 25, 59, al);
+      fill(71 + red, 83, 135, al);
       rect(0, 0, gridSize * 0.5, gridSize * 0.5);
       pop();
     }

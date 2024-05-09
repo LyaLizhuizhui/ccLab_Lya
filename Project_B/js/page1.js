@@ -16,7 +16,7 @@ function setup() {
   cam.hide();
   img = createImage(displayWidth, displayHeight);
 
-  xSlider = createSlider(0, 255, 155);
+  xSlider = createSlider(0, 255, 105);
   xSlider.position((windowWidth - displayWidth) / 2, 200);
   xSlider.size(displayWidth, 20);
 }
