@@ -5,6 +5,7 @@ let size;
 function setup() {
     let canvas = createCanvas(displayWidth, displayHeight);
     canvas.parent("p5-canvas-container");
+    noCursor();
 }
 
 function draw() {
